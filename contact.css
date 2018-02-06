@@ -13,6 +13,7 @@ body {
 	background-color: rgb(181, 183, 186);
 	color: rgb(142, 142, 142);
 	padding: 10px;
+	text-align;
 	width: auto;
 }
 #header ul {
@@ -49,10 +50,7 @@ p#name {
 	text-align: center;
 	font-family:fantasy;
 	font-size: 48px;
-	margin-left: 100px;
-	margin-bottom: 0px;
-	margin-right: 100px;
-	margin-top: -80px;
+	margin: auto;
 	color: white;
 	text-shadow: 2px 2px 20px rgb(255, 255, 255);
 }
