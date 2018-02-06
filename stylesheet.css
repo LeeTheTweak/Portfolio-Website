@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/* index CSS Document */
+
+/*Background*/
+body {
+	background-color: rgb(255, 255, 255);
+	margin: 0 auto;
+	width: 100%;
+}
+/*End of Background*/
+/*Header*/
+#header {
+	background-color: rgb(181, 183, 186);
+	color: rgb(142, 142, 142);
+	padding: 10px;
+	width: auto;
+}
+#header ul {
+	text-align: center;
+	padding: 5px;
+}
+#header li {
+	display: inline;
+	padding: 5px;
+}
+#header ul a {
+	text-decoration: none;
+}
+.inactiveButtons {
+	color: white;
+}
+.activeButtons {
+	color: rgb(0, 217, 255);
+}
+#header ul a:hover {
+	text-shadow: 2px 2px 10px rgb(255, 255, 255);
+}
+#header form {
+	padding: 1px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	margin-right: 0px;
+	text-align: right;
+	color: white;
+}
+								/*Title 'Christopher Leveston'*/
+p#name {
+	text-align: center;
+	font-family:fantasy;
+	font-size: 48px;
+	margin-left: 100px;
+	margin-bottom: 0px;
+	margin-right: 100px;
+	margin-top: -80px;
+	color: white;
+	text-shadow: 2px 2px 20px rgb(255, 255, 255);
+}
+								/*Title 'Art of Christopher Leveston'*/
+p#phrase {
+	text-align: center;
+	color: white;
+	font-size: 24px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+/*End of Header*/
+/*----------------------------------------------*/
+/*Content*/
+.Content {
+	width: auto;
+}
+.Content h2 {
+	padding: 5px;
+	color: rgb(84, 190, 250);
+	text-shadow: 1px 1px 6px rgb(0, 217, 255);
+}
+.Content p{
+	padding: 5px;
+	color: rgb(0,0,0);
+}
+								/*--Profile Image--*/
+.Content #profile {
+	float: left;
+	width: 300px;
+	height: 350px;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 2px;
+	margin-right: 5px;
+	border: 3px double rgb(117, 48, 52);
+}
+								/*--Image of Chicago--*/
+.Content #chicagoImage {
+	float: right;
+	width: 600px;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 2px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	border: 3px double rgb(117, 48, 52);
+}
+/*Table-CONTENTS*/ /*Bug Fixed...Images were tied to
+	profile and chicago images, gave them their own id's.*/
+#table {
+	width: 100%;
+}
+#table th {
+	font-family: Verdana, sans-serif;
+	color: rgb(84, 190, 250);
+	text-shadow: 1px 1px 6px rgb(84, 190, 250);
+}
+#table td {
+	width: 350px;
+}
+#table img {
+	width: 100%;
+}
+/*End of Table*/ /*End of Contents*/
+/*-----------------------------------------------*/
+/*Footer*/
+#Footer {
+	width: 99%;
+	background-color: rgb(181, 183, 186);
+	text-align: center;
+	padding: 10px;
+}
+								/*Social Media Link Images*/
+#Footer img {
+	width: 30px;
+	padding: 3px;
+	box-shadow: 0px 0px 10px 2px rgb(255, 255, 255);
+}
+#Footer img:hover {
+	box-shadow: 0px 0px 10px 2px rgb(84, 190, 250);
+}
+/*End of Footer*/

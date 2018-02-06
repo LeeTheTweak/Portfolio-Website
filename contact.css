@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* Contact CSS Document */
+
+/*Background*/
+body {
+	background-color: rgb(255, 255, 255);
+	margin: 0 auto;
+	width: 100%;
+}
+/*End of Background*/
+/*Header*/
+#header {
+	background-color: rgb(181, 183, 186);
+	color: rgb(142, 142, 142);
+	padding: 10px;
+	width: auto;
+}
+#header ul {
+	text-align: center;
+	padding: 5px;
+}
+#header li {
+	display: inline;
+	padding: 5px;
+}
+#header ul a {
+	text-decoration: none;
+}
+.inactiveButtons {
+	color: white;
+}
+.activeButtons {
+	color: rgb(0, 217, 255);
+}
+#header ul a:hover {
+	text-shadow: 2px 2px 10px rgb(255, 255, 255);
+}
+#header form {
+	padding: 1px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	margin-right: 0px;
+	text-align: right;
+	color: white;
+}
+											/*Title 'Christopher Leveston'*/
+p#name {
+	text-align: center;
+	font-family:fantasy;
+	font-size: 48px;
+	margin-left: 100px;
+	margin-bottom: 0px;
+	margin-right: 100px;
+	margin-top: -80px;
+	color: white;
+	text-shadow: 2px 2px 20px rgb(255, 255, 255);
+}
+											/*Title 'Art of Christopher Leveston'*/
+p#phrase {
+	text-align: center;
+	color: white;
+	font-size: 24px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+/*End of Header*/
+/*----------------------------------------------*/
+/*Content*/
+#Content {
+	width: auto;
+	text-align: center;
+
+}
+#Content fieldset {
+	border: 5px double rgb(84, 190, 250);
+	margin-top: 5px;
+}
+#Content legend {
+	font-family: fantasy, Verdana, Times, sans-serif;
+	font-weight: bold;
+}
+#Content input {
+	box-shadow: inset 0px 0px 5px 1px black;
+}
+#Content textarea {
+	box-shadow: inset 0px 0px 5px 1px black;
+	margin: 2px;
+}
+#Content .bigOlButton {
+	margin-top: 3px;
+	background-color: rgb(84, 190, 250);
+	color: white;
+}
+#Content .bigOlButton:hover {
+	color: black;
+	background-color: rgb(51,255,255);
+}
+/*End of Contact*/
+/*Footer*/
+#Footer {
+	width: 99%;
+	background-color: rgb(181, 183, 186);
+	text-align: center;
+	padding: 10px;
+}
+#Footer img {
+	width: 30px;
+	padding: 3px;
+	box-shadow: 0px 0px 10px 2px rgb(255, 255, 255);
+}
+#Footer img:hover {
+	box-shadow: 0px 0px 10px 2px rgb(84, 190, 250);
+}
+/*End of Footer*/
