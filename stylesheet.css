@@ -35,7 +35,7 @@ body {
 #header ul a:hover {
 	text-shadow: 2px 2px 10px rgb(255, 255, 255);
 }
-#header form {
+/*#header form {
 	padding: 1px;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -43,7 +43,7 @@ body {
 	margin-right: 0px;
 	text-align: right;
 	color: white;
-}
+}*/
 								/*Title 'Christopher Leveston'*/
 p#name {
 	text-align: center;
