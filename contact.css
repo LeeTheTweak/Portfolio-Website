@@ -46,8 +46,9 @@ body {
 	color: white;
 }*/
 											/*Title 'Christopher Leveston'*/
-p#name {
+#name, #name a {
 	text-align: center;
+	text-decoration: none;
 	font-family:fantasy;
 	font-size: 48px;
 	margin: auto;
