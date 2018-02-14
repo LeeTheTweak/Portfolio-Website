@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/*Gallery CSS Document */
+
+/*Background*/
+body {
+	background-color: rgb(255, 255, 255);
+	margin: 0 auto;
+	width: 100%;
+}
+/*End of Background*/
+/*Header*/
+#header {
+	background-color: rgb(181, 183, 186);
+	color: rgb(142, 142, 142);
+	padding: 10px;
+	text-align: center;
+	width: auto;
+}
+#header ul {
+	text-align: center;
+	padding: 5px;
+}
+#header li {
+	display: inline;
+	padding: 5px;
+}
+#header ul a {
+	text-decoration: none;
+}
+.inactiveButtons {
+	color: white;
+}
+.activeButtons {
+	color: rgb(0, 217, 255);
+}
+#header ul a:hover {
+	text-shadow: 2px 2px 10px rgb(255, 255, 255);
+}
+/*#header form {
+	padding: 1px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	margin-right: 0px;
+	text-align: right;
+	color: white;
+}*/
+								/*Title 'Christopher Leveston'*/
+#name a {
+	text-align: center;
+	text-decoration: none;
+	font-family:fantasy;
+	font-size: 48px;
+	margin: auto;
+	color: white;
+	text-shadow: 2px 2px 20px rgb(255, 255, 255);
+}
+								/*Title 'Art of Christopher Leveston'*/
+p#phrase {
+	text-align: center;
+	color: white;
+	font-size: 24px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+#ButtonList {
+	margin: auto;
+	border: 5px double rgb(4,216,254);
+	width: 500px;
+	padding: 3px;
+}
+#ButtonList button {
+	background-color: rgb(255,255,255);
+	border: 2px solid black;
+	width: auto;
+	height: 30px;
+	margin: 10px;
+	box-shadow: 0px 0px 10px 5px rgb(255,255,255);
+}
+#ButtonList button:hover {
+	box-shadow: 0px 0px 10px 5px rgb(246, 149, 4);
+}
+#ButtonList button:active {
+	box-shadow: 0px 0px 10px 5px rgb(227, 0, 255);
+}
+/*--------------------End of Header---------------------------*/
+/*--------------------Content---------------------------------*/
+#Content {
+	margin: 0 auto;
+	width: 100%;
+}
+table, th, td {
+	text-align: center;
+	width: auto;
+}
+#Content td img {
+	width: 350px;
+}
+/*------------------End of Content---------------------------*/
+/*Footer*/
+#Footer {
+	width: 99%;
+	background-color: rgb(181, 183, 186);
+	text-align: center;
+	padding: 10px;
+}
+								/*Social Media Link Images*/
+#Footer img {
+	width: 30px;
+	padding: 3px;
+	box-shadow: 0px 0px 10px 2px rgb(255, 255, 255);
+}
+#Footer img:hover {
+	box-shadow: 0px 0px 10px 2px rgb(84, 190, 250);
+}
+/*End of Footer*/
