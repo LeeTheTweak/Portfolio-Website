@@ -67,21 +67,49 @@ p#phrase {
 /*----------------------------------------------*/
 /*Content*/
 #aboutMe {
-    width: auto;
+    width: 100%;
     height: auto;
-    border: 1px solid black;
     overflow: auto;
     text-align: center;
 }
  #aboutMeImage1 {
-    width: 500px;;
+    width: 25%;
 }
 #bubblesImage {
-    width: 200px;
+    width: 15%;
 }
 figcaption {
-    width: 500px;
+    width: 60%;
     margin: auto;
+    font-weight: bold;
+    font-family: verdana, helvetica, times, georgia, sans-serif;
+}
+#skills {
+    background-color:antiquewhite;
+    overflow: auto;
+}
+#skillsHeading {
+    text-align: center;
+    font-size: 60px;
+    font-family: verdana, helvetica, times, georgia, sans-serif;
+}
+#mainList {
+    border: 1px solid black;
+    overflow: auto;
+    align-content: center;
+    width: auto;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#list1 {
+    float: left;
+    
+}
+#list2 {
+    float: left;
+}
+#list3 {
+    float: left;
 }
 
 /*Table-CONTENTS*/ /*Bug Fixed...Images were tied to
@@ -90,7 +118,7 @@ figcaption {
 	width: 100%;
 }
 #table th {
-	font-family: Verdana, sans-serif;
+	font-family: Verdana, helvetica, times, georgia, sans-serif;
 	color: rgb(84, 190, 250);
 	text-shadow: 1px 1px 6px rgb(84, 190, 250);
 }
