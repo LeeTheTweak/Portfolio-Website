@@ -14,7 +14,7 @@ body {
 	color: rgb(142, 142, 142);
 	padding: 10px;
 	text-align: center;
-	width: auto;
+	width: 100%;
 }
 #header ul {
 	text-align: center;
@@ -66,7 +66,7 @@ p#phrase {
 #ButtonList {
 	margin: auto;
 	border: 5px double rgb(4,216,254);
-	width: 500px;
+	width: 90%;
 	padding: 3px;
 }
 #ButtonList button {
