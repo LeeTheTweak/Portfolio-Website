@@ -10,7 +10,7 @@ var comingSoonTextEl = document.createTextNode('(coming soon)');
 
 comingSoonEl.appendChild(comingSoonTextEl);
 
-var comingSoonString = document.getElementsByTagName('li')[3];
+var comingSoonString = document.getElementsByTagName('li')[1];
 $('document').ready(function() {
     $(comingSoonString).after(comingSoonEl);
 });
