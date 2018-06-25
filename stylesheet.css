@@ -84,6 +84,25 @@ figcaption {
     font-weight: bold;
     font-family: verdana, helvetica, times, georgia, sans-serif;
 }
+#webProjects {
+	background-color: rgb(160, 160, 243);
+	width: auto;
+	padding-bottom: 1px;
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: sans-serif, 'Times New Roman', Times, serif;
+}
+#restaurantSite {
+	text-decoration: none;
+	color: white;
+	border-bottom: 1px solid white;
+	border-top: 1px solid white;
+}
+.description {
+	font-size: 14px;
+}
 #skills {
     background-color:antiquewhite;
     width: 100%;
