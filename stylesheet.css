@@ -122,7 +122,9 @@ figcaption {
     overflow: auto;
 }
 #skillsHeading {
-    text-align: center;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 5px black;
     font-size: 60px;
     font-family: verdana, helvetica, times, georgia, sans-serif;
 }
