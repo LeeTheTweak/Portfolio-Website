@@ -84,36 +84,57 @@ figcaption {
     font-family: verdana, helvetica, times, georgia, sans-serif;
 }
 #webProjects {
-	width: auto;
 	padding: 2px;
 	background-color: rgb(160, 160, 243);
 	padding-bottom: 1px;
-	text-align: center;
-	color: white;
-	font-size: 50px;
-	font-weight: bold;
-	font-family: sans-serif, 'Times New Roman', Times, serif;
 }
 #webProjectsContainer {
 	padding: 3px;
 	width: auto;
 }
 #webProjectsHeading {
-	width: auto;
 	padding: 0;
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: sans-serif, 'Times New Roman', Times, serif;
 }
 #personalSite {
 	font-size: 40px;
+	border: 2px solid white;
+	border-radius: 10px;
+	width: auto;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	font-family: sans-serif, 'Times New Roman', Times, serif;
 }
 #restaurantSite {
-	text-decoration: none;
+	text-align: center;
+	font-size: 45px;
+	font-weight: bold;
 	color: white;
-	border-bottom: 1px solid white;
-	border-top: 1px solid white;
+	background-color: rgb(158, 132, 84);
+	border: 2px solid white;
+	border-radius: 10px;
 }
 .description {
 	font-size: 14px;
 }
+/*#restaurantSite {
+	text-decoration: none;
+	color: white;
+	border-bottom: 1px solid white;
+	border-top: 1px solid white;
+	text-align: center;
+}
+.description {
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	font-family: sans-serif, 'Times New Roman', Times, serif;
+}*/
 #skills {
     background-color:antiquewhite;
     width: 100%;
