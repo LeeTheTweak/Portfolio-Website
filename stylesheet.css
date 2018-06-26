@@ -119,6 +119,9 @@ figcaption {
 	border: 2px solid white;
 	border-radius: 10px;
 }
+.links {
+	text-decoration: none;
+}
 .description {
 	font-size: 14px;
 }
