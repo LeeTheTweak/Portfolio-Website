@@ -110,14 +110,21 @@ figcaption {
 	color: white;
 	font-family: sans-serif, 'Times New Roman', Times, serif;
 }
-#restaurantSite {
+.site {
 	text-align: center;
 	font-size: 45px;
 	font-weight: bold;
 	color: white;
-	background-color: rgb(158, 132, 84);
+	text-shadow: 1px 1px 25px white;
 	border: 2px solid white;
 	border-radius: 10px;
+}
+#restaurant {
+	background-image: url("photos/restaurantPhoto.png");
+}
+#jaiden {
+	background-image: url("photos/jaidenPhoto.png");
+	background-position: center;
 }
 .links {
 	text-decoration: none;
