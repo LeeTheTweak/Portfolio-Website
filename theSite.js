@@ -4,9 +4,9 @@ $('document').ready(function() {
     $(chicagoBubbleImage).hide().fadeIn(2500);
 });
 
-//Creating the coming soon element and object
+/**Creating the coming soon element and object
 var comingSoonEl = document.createElement('SPAN');
-var comingSoonTextEl = document.createTextNode('(Look Below)');
+var comingSoonTextEl = document.createTextNode('(New)');*/
 
 comingSoonEl.appendChild(comingSoonTextEl);
 
