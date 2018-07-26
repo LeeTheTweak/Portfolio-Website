@@ -126,6 +126,12 @@ figcaption {
 	background-image: url("photos/JaidenPhoto.png");
 	background-position: center;
 }
+#apparelShopping {
+	background-image: url("photos/apparelPhoto.png");
+	color: black;
+	text-shadow: 1px 1px 5px black;
+	border: 2px solid black;
+}
 .links {
 	text-decoration: none;
 }
