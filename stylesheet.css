@@ -132,6 +132,11 @@ figcaption {
 	text-shadow: 1px 1px 5px black;
 	border: 2px solid black;
 }
+#sweetsGaloreSite {
+	background-image: url("photos/sweetsGaloreImage.png");
+	text-shadow: 1px 1px 5px black;
+	border: 2px solid black;
+}
 .links {
 	text-decoration: none;
 }
